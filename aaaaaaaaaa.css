@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+
+    
+}
+
+body {
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
+
+    
+
+
+div.img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
